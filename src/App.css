@@ -32,3 +32,10 @@ li {
   list-style: none;
   text-align: left;
 }
+.footer {
+  max-height: 30px;
+
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
