@@ -1,9 +1,10 @@
+import React, { useState } from "react";
 import WeatherSearch from "./WeatherSearch";
 import Footer from "./Footer";
 
 import "./App.css";
 
-function App() {
+export default function App() {
   return (
     <div>
       <div className="App">
@@ -15,5 +16,3 @@ function App() {
     </div>
   );
 }
-
-export default App;
