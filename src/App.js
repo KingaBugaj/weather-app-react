@@ -8,9 +8,11 @@ export default function App() {
   return (
     <div>
       <div className="App">
-        <h1>Weather App</h1>
-        <WeatherSearch />
-        <div className="Forecast"></div>
+        <div className="contaier">
+          <h1>Weather App</h1>
+          <WeatherSearch />
+          <div className="Forecast"></div>
+        </div>
       </div>
       <Footer />
     </div>
